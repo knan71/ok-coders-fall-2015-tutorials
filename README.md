@@ -1,2 +1,2 @@
 # ok-coders-fall-2015-tutorials
-# MEAN stack || FULL-stack
+#   MEAN stack Or Full-stack
