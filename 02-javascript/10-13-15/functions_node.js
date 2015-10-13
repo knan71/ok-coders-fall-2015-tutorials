@@ -40,23 +40,33 @@
 
  function testIt(numInput) {
    var numEnter = numInput;
-   switch(true)
+   if (numEnter < 0) {
+     var numResult = 1;
+   } else if (numEnter === 0) {
+     var numResult = 2;
+   } else {
+     var numResult = 3;
+   }// if else
+
+   switch(numResult)
    {
-     case (numEnter < 0):
+     case (1):
      console.log(numEnter + " is negative");
      break;
 
-     case (numEnter === 0):
+     case (2):
      console.log(numEnter + " is zero");
      break;
 
-     case (numEnter > 0):
+     case (3):
      console.log(numEnter + " is positive");
      break;
 
+     default:
+     console.log("NaN");
    }//switch
  }//testIt()
-testIt(100);
+testIt(0);
 
 /* 3. declare a function called addSuffix that takes two parameters,
  * the string 'name' and the boolean 'male'
