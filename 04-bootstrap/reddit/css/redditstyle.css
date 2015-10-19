@@ -1,0 +1,62 @@
+.box_shaper {
+  margin: 0 auto;
+  padding: 15px;
+}
+.search_box {
+  padding:5px;
+  width:100px;
+}
+.reddit_live {
+  color:#939393;
+  font-size: 12px;
+  padding:5px;
+}
+.reddit_msg {
+  color: #0080ff;
+  font-size: 10px;
+  padding-left: 35px;
+  padding-top: 8px;
+  padding-right: 5px;
+  padding-bottom: 1px;
+}
+.level {
+  color:#939393;
+  font-size: 14px;
+}
+.rank {
+  color:#939393;
+  font-size: 14px;
+  font-weight: bold;
+}
+.pix {
+  width:112px;
+  height:112px;
+}
+.hyperlink {
+  color: #0000e5;
+  font-size: 16px;
+  float: left;
+  padding-left:25px;
+  padding-top:15px;
+}
+a:link {
+  text-decoration:none;
+}
+.submit_text {
+  color: #939393;
+  font-size: 10px;
+  float: left;
+  padding-left:25px;
+}
+.comments {
+  color: #939393;
+  font-size: 10px;
+  font-weight:bold;
+  float: left;
+  padding-left:25px;
+}
+
+.spacer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
